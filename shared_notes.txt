@@ -1,0 +1,41 @@
+while true; do
+echo "On which topic do you want advice?"
+echo "1.  politics"
+echo "2.  startrek"
+echo "3.  kernelnewbies"
+echo "4.  sports"
+echo "5.  bofh-excuses"
+echo "6.  magic"
+echo "7.  love"
+echo "8.  literature"
+echo "9.  drugs"
+echo "10. education"
+echo
+
+echo -n "Enter your choice, or 0 for exit: "
+read choice
+echo
+
+
+http://download.oracle.com/otn-pub/java/jdk/8u121-b13/e9e7ea248e2c4826b92b3f075a80e441/jdk-8u121-linux-x64.tar.gz
+
+
+#!/bin/bash
+
+#Download JDK8 to temp folder and extract to /usr/lib/jvm
+cd /opt
+sudo curl -L -O -H "Cookie: oraclelicense=accept-securebackup-cookie" -k "http://download.oracle.com/otn-pub/java/jdk/8u121-b13/e9e7ea248e2c4826b92b3f075a80e441/jdk-8u121-linux-x64.tar.gz"
+sudo tar xzvf jdk-8u121-linux-x64.tar.gz
+cd /opt/jdk1.8.0_121
+
+
+#Set JRE as system default JVM
+sudo update-alternatives --install /usr/bin/java java /opt/jdk1.8.0_121/bin/java 200
+sudo update-alternatives --config java
+
+# ftp site for downloading pentaho 7
+ftp://ftp.box.com/Software%20Releases/7.0.0.0-GA/Pentaho%20Server/Archive%20Build%20(Suggested%20Installation%20Method)/pentaho-server-ee-7.0.0.0-25-dist.zip
+
+
+# manual build
+ftp://ftp.box.com/Software%20Releases/7.0.0.0-GA/Pentaho%20Server/Manual%20Build%20(No%20Web%20Application%20Server)/pentaho-server-manual-ee-7.0.0.0-25-dist.zip
